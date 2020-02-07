@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mynewapp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/putra_d/mynewapp/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/putra_d/mynewapp/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-database:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/e47a45922352e00bba030bbda6f7347f/jetified-firebase-database-17.0.0/AndroidManifest.xml:25:5-79
+17-->[com.google.firebase:firebase-database:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/e47a45922352e00bba030bbda6f7347f/jetified-firebase-database-17.0.0/AndroidManifest.xml:25:22-76
+18    <!--
+19 io.flutter.app.FlutterApplication is an android.app.Application that
+20         calls FlutterMain.startInitialization(this); in its onCreate method.
+21         In most cases you can leave this as-is, but you if you want to provide
+22         additional functionality it is fine to subclass or reimplement
+23         FlutterApplication and put your custom class here.
+24    -->
+25    <application
+25-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:8:5-29:19
+26        android:name="io.flutter.app.FlutterApplication"
+26-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:9:9-57
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/c1da7862c7abb8e426855a3f78caf221/core-1.0.0/AndroidManifest.xml:22:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:11:9-43
+30        android:label="mynewapp" >
+30-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:10:9-33
+31        <activity
+31-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:12:9-23:20
+32            android:name="com.example.mynewapp.MainActivity"
+32-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:13:13-41
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:16:13-163
+34            android:hardwareAccelerated="true"
+34-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:17:13-47
+35            android:launchMode="singleTop"
+35-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:14:13-43
+36            android:theme="@style/LaunchTheme"
+36-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:15:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:18:13-55
+38            <intent-filter>
+38-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:19:13-22:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:20:17-68
+39-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:20:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:21:17-76
+41-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:21:27-74
+42            </intent-filter>
+43        </activity>
+44        <!--
+45             Don't delete the meta-data below.
+46             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+47        -->
+48        <meta-data
+48-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:26:9-28:33
+49            android:name="flutterEmbedding"
+49-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:27:13-44
+50            android:value="2" />
+50-->/Users/putra_d/mynewapp/android/app/src/main/AndroidManifest.xml:28:13-30
+51
+52        <service
+52-->[:firebase_auth] /Users/putra_d/mynewapp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+53            android:name="com.google.firebase.components.ComponentDiscoveryService"
+53-->[:firebase_auth] /Users/putra_d/mynewapp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+54            android:exported="false" >
+54-->[com.google.firebase:firebase-auth:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/40dc181cb851621da9c1cee737b3032d/jetified-firebase-auth-17.0.0/AndroidManifest.xml:35:13-37
+55            <meta-data
+55-->[:firebase_auth] /Users/putra_d/mynewapp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+56                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+56-->[:firebase_auth] /Users/putra_d/mynewapp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[:firebase_auth] /Users/putra_d/mynewapp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+58            <meta-data
+58-->[:firebase_database] /Users/putra_d/mynewapp/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+59                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+59-->[:firebase_database] /Users/putra_d/mynewapp/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[:firebase_database] /Users/putra_d/mynewapp/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+61            <meta-data
+61-->[:firebase_core] /Users/putra_d/mynewapp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+62                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+62-->[:firebase_core] /Users/putra_d/mynewapp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[:firebase_core] /Users/putra_d/mynewapp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-auth:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/40dc181cb851621da9c1cee737b3032d/jetified-firebase-auth-17.0.0/AndroidManifest.xml:36:13-38:85
+65                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+65-->[com.google.firebase:firebase-auth:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/40dc181cb851621da9c1cee737b3032d/jetified-firebase-auth-17.0.0/AndroidManifest.xml:37:17-109
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-auth:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/40dc181cb851621da9c1cee737b3032d/jetified-firebase-auth-17.0.0/AndroidManifest.xml:38:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-database:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/e47a45922352e00bba030bbda6f7347f/jetified-firebase-database-17.0.0/AndroidManifest.xml:30:13-32:85
+68                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+68-->[com.google.firebase:firebase-database:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/e47a45922352e00bba030bbda6f7347f/jetified-firebase-database-17.0.0/AndroidManifest.xml:31:17-109
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-database:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/e47a45922352e00bba030bbda6f7347f/jetified-firebase-database-17.0.0/AndroidManifest.xml:32:17-82
+70        </service>
+71
+72        <activity
+72-->[com.google.firebase:firebase-auth:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/40dc181cb851621da9c1cee737b3032d/jetified-firebase-auth-17.0.0/AndroidManifest.xml:24:9-31:50
+73            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+73-->[com.google.firebase:firebase-auth:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/40dc181cb851621da9c1cee737b3032d/jetified-firebase-auth-17.0.0/AndroidManifest.xml:25:13-85
+74            android:excludeFromRecents="true"
+74-->[com.google.firebase:firebase-auth:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/40dc181cb851621da9c1cee737b3032d/jetified-firebase-auth-17.0.0/AndroidManifest.xml:26:13-46
+75            android:exported="true"
+75-->[com.google.firebase:firebase-auth:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/40dc181cb851621da9c1cee737b3032d/jetified-firebase-auth-17.0.0/AndroidManifest.xml:27:13-36
+76            android:launchMode="singleTask"
+76-->[com.google.firebase:firebase-auth:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/40dc181cb851621da9c1cee737b3032d/jetified-firebase-auth-17.0.0/AndroidManifest.xml:28:13-44
+77            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+77-->[com.google.firebase:firebase-auth:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/40dc181cb851621da9c1cee737b3032d/jetified-firebase-auth-17.0.0/AndroidManifest.xml:29:13-102
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.firebase:firebase-auth:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/40dc181cb851621da9c1cee737b3032d/jetified-firebase-auth-17.0.0/AndroidManifest.xml:30:13-72
+79
+80        <provider
+80-->[com.google.firebase:firebase-common:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/f27882f71d413f4c24aee1c98686e3f5/jetified-firebase-common-17.0.0/AndroidManifest.xml:12:9-16:39
+81            android:name="com.google.firebase.provider.FirebaseInitProvider"
+81-->[com.google.firebase:firebase-common:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/f27882f71d413f4c24aee1c98686e3f5/jetified-firebase-common-17.0.0/AndroidManifest.xml:13:13-77
+82            android:authorities="com.example.mynewapp.firebaseinitprovider"
+82-->[com.google.firebase:firebase-common:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/f27882f71d413f4c24aee1c98686e3f5/jetified-firebase-common-17.0.0/AndroidManifest.xml:14:13-72
+83            android:exported="false"
+83-->[com.google.firebase:firebase-common:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/f27882f71d413f4c24aee1c98686e3f5/jetified-firebase-common-17.0.0/AndroidManifest.xml:15:13-37
+84            android:initOrder="100" />
+84-->[com.google.firebase:firebase-common:17.0.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/f27882f71d413f4c24aee1c98686e3f5/jetified-firebase-common-17.0.0/AndroidManifest.xml:16:13-36
+85
+86        <activity
+86-->[com.google.android.gms:play-services-base:16.0.1] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/9592c3c5c1fb2431dc47151fdfecb9c3/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+87            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+87-->[com.google.android.gms:play-services-base:16.0.1] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/9592c3c5c1fb2431dc47151fdfecb9c3/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+88            android:exported="false"
+88-->[com.google.android.gms:play-services-base:16.0.1] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/9592c3c5c1fb2431dc47151fdfecb9c3/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+89-->[com.google.android.gms:play-services-base:16.0.1] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/9592c3c5c1fb2431dc47151fdfecb9c3/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+90
+91        <meta-data
+91-->[com.google.android.gms:play-services-basement:16.1.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/4a17fda8239327de1d66d902cc3c62ee/jetified-play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+92            android:name="com.google.android.gms.version"
+92-->[com.google.android.gms:play-services-basement:16.1.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/4a17fda8239327de1d66d902cc3c62ee/jetified-play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
+93            android:value="@integer/google_play_services_version" />
+93-->[com.google.android.gms:play-services-basement:16.1.0] /Users/putra_d/.gradle/caches/transforms-2/files-2.1/4a17fda8239327de1d66d902cc3c62ee/jetified-play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+94    </application>
+95
+96</manifest>
